@@ -42,10 +42,10 @@
     > https://grocery-store-000.herokuapp.com/orders
 ### 3.delete order 
     > http://localhost:5400/deleteorders
-    >
+    > https://grocery-store-000.herokuapp.com/deleteorders
 ### 4.update order 
     > http://localhost:5400/updateorders
-    > https://grocery-store-000.herokuapp.com/deleteorders
+    > https://grocery-store-000.herokuapp.com/updateorders
 
 # Page5
 

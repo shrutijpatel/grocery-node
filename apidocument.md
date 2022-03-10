@@ -21,7 +21,7 @@
         > https://grocery-store-000.herokuapp.com/filter/1?lcost=100&hcost=1000&sort=1
 ### 5.2.Sort high to low 
         > http://localhost:5400/filter/1?lcost=100&hcost=1000&sort=-1
-        > ttps://grocery-store-000.herokuapp.com/filter/1?lcost=100&hcost=1000&sort=-1
+        > https://grocery-store-000.herokuapp.com/filter/1?lcost=100&hcost=1000&sort=-1
 
 # Page3
 
@@ -38,8 +38,8 @@
     > http://localhost:5400/menu/5
     > https://grocery-store-000.herokuapp.com/menu/5
 ### 2.api to place order 
-    > http://localhost:5400/orders
-    > https://grocery-store-000.herokuapp.com/orders
+    > http://localhost:5400/placeorder
+    > https://grocery-store-000.herokuapp.com/placeorders
 ### 3.delete order 
     > http://localhost:5400/deleteorders
     > https://grocery-store-000.herokuapp.com/deleteorders

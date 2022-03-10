@@ -51,7 +51,7 @@ app.get('/productDetails/:id',(req,res)=>{
 //menuproducts wrt categories
 app.get('/menu/:id',(req,res)=>{
     let productId=Number(req.params.id);
-    db.collection('categorymenu').find({category_id:productId}).toArray((err,result)=>{
+    db.collection('menu').find({category_id:productId}).toArray((err,result)=>{
         if(err) throw err;
         res.send(result)
     })
@@ -105,7 +105,7 @@ app.post('/placeorder',(req,res)=>{
 //menu on basis of user selection
 app.post('/menuItem',(req,res)=>{
     console.log(req.body)
-    db.collection('categorymenu').find({id:{$in:req.body}}).toArray((err,result)=>{
+    db.collection('menu').find({id:{$in:req.body}}).toArray((err,result)=>{
         if(err) throw err;
         res.send(result)
     })
